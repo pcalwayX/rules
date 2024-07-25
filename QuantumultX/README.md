@@ -1,11 +1,6 @@
-# 奇心 QuantumultX 懒人配置 3.0
+# 自用配置2024.07.25
 
-## 前言
-
-时隔一年多，配置远程规则一直在更新，从未停止，但是总有人说我很久很久没有更新了。
-
-###### 那就更新吧！
-
+# 在这里先感谢下陌路、此配置是根据奇心懒人配置3.0-6.8版本修改而成
 ## 软件介绍
 QuantumultX是一款功能强大的网络工具，适用于需要自定义代理的 Web 开发人员和用户。
 
@@ -43,14 +38,9 @@ vpn代理工具，科学上网（支持分流），脚本运行，https抓包，
 
 ### PROXY
 
-- 奇心科技
-免费订阅节点，当前是免费提供，失效时间待定（强烈建议大家自己[注册机场](http://v2.bruceyunti.com/#/register?code=5PqG3ZbH)，使用自己的订阅节点）
-
-- 网易云解锁灰色
-网易云解锁节点，目前应该是有效的，使用之前，一定记得下载证书，安装并信任，启用分流规则，必要情况下，请卸载网易云app，重新下载。
-
-
-	注：这里组名依然是“网易云解锁灰色”，防止个别小白不知道其作用
+-添加了新的网易云重写-
+引用来自：https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/NeteaseCloudMusic/netease.js
+直接在重写实现网易云VIP播放，自用的版本为8.10.15
 
 
 ### 自定义策略
@@ -87,7 +77,6 @@ vpn代理工具，科学上网（支持分流），脚本运行，https抓包，
 这是唯一一个国内app单独添加的一个策略组，因为没办法整合进去，它也需要走代理，但不是出国代理，而是规则生成，使用酷我、QQ、酷狗、等其他音乐播放器的歌曲链接来替换网易云中需要vip和无版权音乐的链接，以此来达到解锁vip和灰色歌曲的目的，这也是网易云解锁灰色音乐的原理。
 
 
-	因解锁节点均由各大博主自行搭建并分享使用，所以不能保证其有效性，具体请自行测试。
 
 
 - 广告屏蔽
@@ -131,13 +120,10 @@ vpn代理工具，科学上网（支持分流），脚本运行，https抓包，
 包含了去广告规则，解锁vip规则，具体有什么，可以把引用的链接复制出来，使用浏览器打开，就可以看到有什么了，是不是有你想要的那个解锁vip的
 https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qxrules.conf
 
-- 比价 （失效）
-
-
-京东、淘宝，历史价格比较，一般京东会直接在商品界面显示，淘宝在 “保障” 里面查看，当前规则是失效状态，因为大佬没在维护了
-说明：正常维护的情况下，如果你打开看不到历史价格，那就需要卸载app并重新安装才能正常显示比价
-https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/price.conf
-
+- Sub-store
+可以自己本地修改合并代理节点
+https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/QX.snippet
+打开后在浏览器输入：https://sub-store.vercel.app/subs进入
 - 去开屏广告
 
 
@@ -148,9 +134,11 @@ https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/tailadv.conf
 
 - 解锁TikTok （旧版有效）
 
+已经集成到本地Config，添加分流规则：https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok.list
 
-该规则目前是有效的，仅仅是不支持最新版本而已，你可以抓包下载旧版，就可以使用了，别在说规则没用了，也不要一进群就到处求解锁TikTok的规则了，你这样问，真的没有人愿意理你，因为链接里面都有注释的，你倒是点进去看看啊
-https://raw.githubusercontent.com/zwf234/rules/master/TikTok/US.conf
+
+- 破解芒果TV SVIP 版本Version8.15
+https://raw.githubusercontent.com/Yu9191/Rewrite/main/MGTV.js
 
 
 - 获取Cookie（还未来得及更新）
@@ -197,9 +185,9 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 
 ## 配置下载
 
-国内地址：https://qxnav.com/rules/QuantumultX/qixin.conf
+国内地址：
 
-国外地址：https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qixin.conf
+国外地址：https://raw.githubusercontent.com/pcalwayX/rules/master/QuantumultX/qixin.conf
 
 
 	国内地址打开乱码，下载后就正常了
@@ -233,7 +221,7 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 
 以上排名不分先后
 
-## 关于我
+## 感谢陌路提供的奇心懒人版本
 
 微信公众号：迅技网络
 
