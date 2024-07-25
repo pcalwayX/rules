@@ -7,9 +7,9 @@
 
 如果您使用并复制了任何本仓库的内容，则视为您已接受此免责声明.
 
-## QuantumultX 奇心懒人配置
+## QuantumultX 自用配置
 
-配置地址：https://qxnav.com/rules/QuantumultX/qixin.conf
+配置地址：https://raw.githubusercontent.com/pcalwayX/rules/master/QuantumultX/qixin.conf
 
 Task远程订阅地址：https://qxnav.com/rules/QuantumultX/qixin.json
 
@@ -26,7 +26,7 @@ QuantumultX 使用视频教程（[YouTube](https://www.youtube.com/results?searc
 ### 请仔细看完所有教程在提问
 
 GitHub仓库地址：https://github.com/zwf234/rules
-
+GitHub 自用仓库：https://github.com/pcalwayX/rules
 电报通知频道：[@qixinscience](https://t.me/qixinscience)
 
 交流电报群：[@qixinkeji](https://t.me/qixinkeji)
