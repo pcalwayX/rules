@@ -26,7 +26,7 @@ QuantumultX 使用视频教程（[YouTube](https://www.youtube.com/results?searc
 ### 请仔细看完所有教程在提问
 
 GitHub仓库地址：https://github.com/zwf234/rules
-GitHub 自用仓库：https://github.com/pcalwayX/rules
+GitHub自用仓库：https://github.com/pcalwayX/rules
 电报通知频道：[@qixinscience](https://t.me/qixinscience)
 
 交流电报群：[@qixinkeji](https://t.me/qixinkeji)
